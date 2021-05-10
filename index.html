@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- title  -->
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <!-- score-board -->
+    <div class="score-board">
+      <div class="user-label">User</div>
+      <div class="computer-label">Comp</div>
+      <span class="user-score">0</span>:<span class="computer-score">0</span>
+    </div>
+    <!-- result -->
+    <div class="result">
+      <p class="result-message">start playing</p>
+    </div>
+    <!-- choices -->
+    <div class="choices">
+      <i class="fas fa-hand-rock" id="rock"></i>
+      <i class="fas fa-hand-paper" id="paper"></i>
+      <i class="fas fa-hand-scissors" id="scissors"></i>
+    </div>
+    <!-- action message -->
+    <p class="action-message">Make your move!</p>
+  </body>
+</html>
